@@ -36,4 +36,4 @@ Welcome to the **A/L Education Platform**, an interactive web portal designed sp
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/your-username/education-platform.git](https://github.com/your-username/education-platform.git)
+   git clone [https://github.com/diloshan-dev/education-platform.git](https://github.com/diloshan-dev/education-platform.git)
