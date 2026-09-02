@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Log in — A/L Platform</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="index.html" class="nav-brand">
+    <div class="mark">A/L</div>
+    <div>A/L Platform<span class="tag">Advanced Level · Sri Lanka</span></div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html" data-page="index.html">Home</a></li>
+    <li><a href="index.html#about" data-page="about">About</a></li>
+    <li><a href="papers.html" data-page="papers.html">Buy papers</a></li>
+  </ul>
+  <div class="nav-right" id="nav-auth-slot"></div>
+  <button class="theme-toggle" title="Toggle theme"><div class="knob"></div></button>
+  <button class="nav-burger"><span></span></button>
+</nav>
+
+<section class="auth-screen">
+  <div class="auth-card">
+    <div class="auth-card-inner">
+      <div class="auth-head">
+        <div class="mark">A/L</div>
+        <h1>Welcome back</h1>
+        <p>Log in to access the papers you've bought</p>
+      </div>
+
+      <form id="loginForm" novalidate>
+        <div class="field">
+          <label for="loginEmail">Email</label>
+          <input type="email" id="loginEmail" placeholder="you@example.com" required>
+        </div>
+        <div class="field">
+          <label for="loginPass">Password</label>
+          <input type="password" id="loginPass" placeholder="••••••••" required>
+        </div>
+        <div class="field-row">
+          <label class="remember"><input type="checkbox"> Remember me</label>
+          <a href="#">Forgot password?</a>
+        </div>
+        <button type="submit" class="auth-submit">Log in</button>
+        <div class="form-msg" id="loginMsg"></div>
+      </form>
+
+      <p class="auth-foot">Don't have an account? <a href="signup.html">Sign up</a></p>
+    </div>
+  </div>
+</section>
+
+<script src="main.js"></script>
+<script src="auth.js"></script>
+</body>
+</html>
