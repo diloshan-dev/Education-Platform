@@ -8,10 +8,10 @@ Welcome to the **A/L Education Platform**, an interactive web portal built to em
 ## 📸 Platform Previews & Screenshots
 
 ### 🖥️ Main Dashboard Overview
-![A/L Platform Landing Page](image1.png)
+![A/L Platform Landing Page](image.png)
 
 ### 📄 Paper Store & Portal Preview
-![A/L Platform Interface](image2.png)
+![A/L Platform Interface](image1.png)
 
 ### 🎨 Background & Theme Preview
 ![A/L Platform Background View](bg.jpg)
